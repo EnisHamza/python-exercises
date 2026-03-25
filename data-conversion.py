@@ -1,4 +1,5 @@
 def convert_to_string(values):
+    # Convert string values to int
     valid_values = []
     for value in values:
         try:

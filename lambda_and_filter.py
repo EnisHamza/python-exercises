@@ -13,5 +13,6 @@ cities = [{"city_id": 1, "city_name": "Prishtina",
           {"city_id": 7, "city_name": "Gjilan",
            "license_plate": "07", "zip_code": 50000}]
 
+# Using lambda&filter to print cities that start with P and their license plate isn't 03
 print(list(filter(lambda row: row["city_name"].startswith(
     "P") and not "03" in row["license_plate"], cities)))

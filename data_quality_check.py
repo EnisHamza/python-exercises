@@ -4,6 +4,7 @@ records = [{"user_id": 1, "age": 25, "email": "test@gmail.com"},
 
 
 def validate_data(records):
+    # Validate records list and return new list of invalid records and reason why they are invalid
     invalid_records = []
 
     for record in records:
